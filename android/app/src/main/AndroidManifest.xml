@@ -1,7 +1,7 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.devquiz">
+    package="br.com.jlgregorio.dev_quiz">
    <application
-        android:label="devquiz"
+        android:label="dev_quiz"
         android:icon="@mipmap/ic_launcher">
         <activity
             android:name=".MainActivity"

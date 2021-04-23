@@ -1,6 +1,6 @@
 {
-    "name": "devquiz",
-    "short_name": "devquiz",
+    "name": "dev_quiz",
+    "short_name": "dev_quiz",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#0175C2",
