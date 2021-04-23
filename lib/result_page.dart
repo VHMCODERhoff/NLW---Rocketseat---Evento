@@ -30,7 +30,7 @@ class ResultPageWidget extends StatelessWidget {
               Column(
                 children: [
                   Text(
-                    "Congratulations!",
+                    "Parabens!",
                     style: AppTextStyles.heading40,
                   ),
                   SizedBox(
@@ -38,13 +38,13 @@ class ResultPageWidget extends StatelessWidget {
                   ),
                   Text.rich(
                     TextSpan(
-                        text: "You have completed\n",
+                        text: "Você Completou!\n",
                         style: AppTextStyles.body,
                         children: [
                           TextSpan(
                               text: "$title\n", style: AppTextStyles.bodyBold),
                           TextSpan(
-                              text: 'with $result hits of $length questions!',
+                              text: 'Com $result Acertos de $length Questões!',
                               style: AppTextStyles.body),
                         ]),
                     textAlign: TextAlign.center,
@@ -58,7 +58,7 @@ class ResultPageWidget extends StatelessWidget {
                       child: Padding(
                         padding: const EdgeInsets.symmetric(horizontal: 68),
                         child: NextButtonWidget.purple(
-                            label: "Share",
+                            label: "Compartilhar",
                             onTap: () {
                               Share.share(
                                   "DevQuiz - NLW 5 - Flutter! Resultado do Quiz: $title\n Resultado: ${result/length}% de aproveitamento.");

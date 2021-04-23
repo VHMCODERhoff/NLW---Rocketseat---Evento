@@ -63,7 +63,7 @@ class _HomePageState extends State<HomePage> {
                             title: e.title,
                             percent: e.questionsAnswered / e.questions.length,
                             completed:
-                                "${e.questionsAnswered} of ${e.questions.length}",
+                                "${e.questionsAnswered} de ${e.questions.length}",
                             onTap: () {
                               Navigator.push(
                                   context,

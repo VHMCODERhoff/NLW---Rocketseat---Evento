@@ -30,11 +30,11 @@ class ScoreCardWidget extends StatelessWidget {
                       child: ChartWidget(percent: percent,),
                     ),
                     Center(
-                      //child: Text(
-                      //  "%",
-                     //   style: AppTextStyles.heading,
+                      child: Text(
+                        "%",
+                        style: AppTextStyles.heading,
                       ),
-                //    ),
+                    ),
                   ],
                 ),
               ),

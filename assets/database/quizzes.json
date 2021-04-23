@@ -4,36 +4,37 @@
     "questionsAnswered": 1,
     "level": "Facil",
     "questions": [{
-            "title": "Está pronto para o Quiz Principal?",
+            "title": "O Flutter é?",
             "answers": [{
-                    "title": "I'm enjoying so much!",
+                    "title": "Flutter é um Framework do Google!",
                     "isCorrect": true
                 },
                 {
-                    "title": "I'm not enjoying!"
+                    "title": "Flutter é um Framework do Facebook!"
                 },
                 {
-                    "title": "I don't know!"
+                    "title": "Flutter é uma Linguagem de Programação do Google!"
                 },
                 {
-                    "title": "I think so!"
+                    "title": "Flutter é uma Linguagem de Programação do Facebook!"
                 }
             ]
         },
         {
-            "title": "Do you like Dart syntax?",
+            "title": "2 Respostas estão corretas!",
             "answers": [{
-                    "title": "Maybe!"
+                    "title": "O Dart é uma Linguagem Estruturada!"
                 },
                 {
-                    "title": "A little bit!"
-                },
-                {
-                    "title": "Yes!",
+                    "title": "O Dart é uma Linguagem Estaticamente Tipada!",
                     "isCorrect": true
                 },
                 {
-                    "title": "No!"
+                    "title": "O Dart é uma Linguagem Movimentado a Objetos!",
+                    "isCorrect": true
+                },
+                {
+                    "title": "Hmm.. Não sei eu pulo essa Questão!"
                 }
             ]
         }
